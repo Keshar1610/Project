@@ -3,7 +3,7 @@ import sqlite3
 
 app = Flask(__name__)
 app.secret_key = "secret123"
-
+# Test commit
 def connect_db():
     return sqlite3.connect("database.db")
 conn = connect_db()
